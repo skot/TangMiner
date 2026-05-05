@@ -1,5 +1,7 @@
 # TangMiner
 
+![tangminer](tangminer.png)
+
 TangMiner is an experimental Bitcoin miner for the [Sipeed Tang Nano 20K](https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/nano-20k.html) and [Tang Nano 9K](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html) FPGA boards based on [Gowin](https://gowinsemi.com) Arora FPGAs.
 
 FPGAs are generally more efficient Bitcoin miners than CPUs and GPUs, but are nowhere near the performance of even the oldest mining ASICs. Gowin Arora FPGAs are small by FPGA standards but were selected for this project for affordability and open source toolchain support. I don't wish the horror of proprietary vendor FPGA toolchains on anyone.
