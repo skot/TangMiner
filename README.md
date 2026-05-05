@@ -15,7 +15,7 @@ Current working state:
 - Tang Nano 20K is the default target and has been built, flashed to SPI flash, loaded to SRAM, and smoke-tested over USB-UART.
 - Tang Nano 9K remains supported through the same SpinalHDL top level and board-specific constraints.
 - The host protocol is documented below and implemented directly in the FPGA UART parser.
-- Mujina integration is working through its (experimental, messy, unreleased) Tang Nano FPGA backend.
+- Mujina integration is working through its (experimental, messy, unreleased) Tang Nano FPGA backend [mujina-tangminer](https://github.com/skot/mujina/tree/tangminer).
 - The SpinalHDL bitstream includes the fixed target byte-order comparison used for host-side share validation.
 - Legacy hand-written Verilog remains in the tree for comparison and Icarus-based simulation.
 
